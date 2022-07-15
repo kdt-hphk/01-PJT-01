@@ -21,10 +21,10 @@ def movie_info(movies, genres):
         
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':
-    movies_json = open(r'C:\Users\young\OneDrive\바탕 화면\01-PJT-01\N회차\전준영\data\movies.json', encoding='UTF8')
+    movies_json = open(r'2회차\전준영\data\movies.json', encoding='UTF8')
     movies_list = json.load(movies_json)
 
-    genres_json = open(r'C:\Users\young\OneDrive\바탕 화면\01-PJT-01\N회차\전준영\data\genres.json', encoding='UTF8')
+    genres_json = open(r'2회차\전준영\data\genres.json', encoding='UTF8')
     genres_list = json.load(genres_json)
 
     pprint(movie_info(movies_list, genres_list))
