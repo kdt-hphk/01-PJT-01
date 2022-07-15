@@ -1,7 +1,5 @@
 import json
 from pprint import pprint
-
-
 def movie_info(movies, genres):
     dictionary0=[]
     dict0={}
