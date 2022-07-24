@@ -2,7 +2,7 @@ import requests
 BASE_URL = 'https://api.themoviedb.org./3/'
 path = 'movie/popular'
 params = {  
-    'api_key': '6d370233a737309005e5afd1cd9a6600',
+    'api_key': 'fcf32c56bae1b94a4712878e7688ec3d',
     'language' : 'ko-KR'}
 
 response = requests.get(BASE_URL+path, params=params)
@@ -17,4 +17,3 @@ for i in response.get('results'):
 print(count)
 if __name__=='__title__':
     print(popular_count())
-
