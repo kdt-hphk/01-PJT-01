@@ -6,7 +6,7 @@ def get_btc_krw():
 
     res = requests.get(url=url).json()
     data = res["data"]
-    prev_closing_price = data["min_price"]
+    prev_closing_price = data["prev_closing_price"]
 
     return prev_closing_price
 
